@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-server1-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flask-server1
+  template:
+    metadata:
+      labels:
+        app: flask-server1
+    spec:
+      containers:
+      - name: flask-server1
+        image: sayandeeps/server1:latest
+        ports:
+        - containerPort: 8000
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 10
+          periodSeconds: 30

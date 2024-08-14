@@ -1,0 +1,34 @@
+2024-08-14 06:36:03,027 - ERROR - Error sending request to Server 1: All connection attempts failed
+2024-08-14 06:36:03,027 - WARNING - Server 1 which is http://127.0.0.1:62786/hi is down, skipping to next server
+2024-08-14 06:36:04,030 - ERROR - Error sending request to Server 2: All connection attempts failed
+2024-08-14 06:36:04,030 - WARNING - Server 2 which is http://127.0.0.1:60212/hi is down, skipping to next server
+2024-08-14 06:36:05,033 - ERROR - Error sending request to Server 1: All connection attempts failed
+2024-08-14 06:36:05,033 - WARNING - Server 1 which is http://127.0.0.1:62786/hi is down, skipping to next server
+2024-08-14 06:36:06,035 - ERROR - Error sending request to Server 2: All connection attempts failed
+2024-08-14 06:36:06,035 - WARNING - Server 2 which is http://127.0.0.1:60212/hi is down, skipping to next server
+2024-08-14 06:36:07,037 - ERROR - Error sending request to Server 1: All connection attempts failed
+2024-08-14 06:36:07,038 - WARNING - Server 1 which is http://127.0.0.1:62786/hi is down, skipping to next server
+2024-08-14 06:36:08,040 - ERROR - Error sending request to Server 2: All connection attempts failed
+2024-08-14 06:36:08,040 - WARNING - Server 2 which is http://127.0.0.1:60212/hi is down, skipping to next server
+2024-08-14 06:36:09,043 - ERROR - Error sending request to Server 1: All connection attempts failed
+2024-08-14 06:36:09,043 - WARNING - Server 1 which is http://127.0.0.1:62786/hi is down, skipping to next server
+2024-08-14 06:36:10,046 - ERROR - Error sending request to Server 2: All connection attempts failed
+2024-08-14 06:36:10,046 - WARNING - Server 2 which is http://127.0.0.1:60212/hi is down, skipping to next server
+2024-08-14 06:36:11,049 - ERROR - Error sending request to Server 1: All connection attempts failed
+2024-08-14 06:36:11,049 - WARNING - Server 1 which is http://127.0.0.1:62786/hi is down, skipping to next server
+2024-08-14 06:36:12,053 - ERROR - Error sending request to Server 2: All connection attempts failed
+2024-08-14 06:36:12,053 - WARNING - Server 2 which is http://127.0.0.1:60212/hi is down, skipping to next server
+2024-08-14 06:36:13,057 - ERROR - Error sending request to Server 1: All connection attempts failed
+2024-08-14 06:36:13,057 - WARNING - Server 1 which is http://127.0.0.1:62786/hi is down, skipping to next server
+2024-08-14 06:36:14,060 - ERROR - Error sending request to Server 2: All connection attempts failed
+2024-08-14 06:36:14,060 - WARNING - Server 2 which is http://127.0.0.1:60212/hi is down, skipping to next server
+2024-08-14 06:36:15,064 - ERROR - Error sending request to Server 1: All connection attempts failed
+2024-08-14 06:36:15,064 - WARNING - Server 1 which is http://127.0.0.1:62786/hi is down, skipping to next server
+2024-08-14 06:36:16,067 - ERROR - Error sending request to Server 2: All connection attempts failed
+2024-08-14 06:36:16,067 - WARNING - Server 2 which is http://127.0.0.1:60212/hi is down, skipping to next server
+2024-08-14 06:36:17,070 - ERROR - Error sending request to Server 1: All connection attempts failed
+2024-08-14 06:36:17,070 - WARNING - Server 1 which is http://127.0.0.1:62786/hi is down, skipping to next server
+2024-08-14 06:36:18,073 - ERROR - Error sending request to Server 2: All connection attempts failed
+2024-08-14 06:36:18,073 - WARNING - Server 2 which is http://127.0.0.1:60212/hi is down, skipping to next server
+2024-08-14 06:36:19,076 - ERROR - Error sending request to Server 1: All connection attempts failed
+2024-08-14 06:36:19,076 - WARNING - Server 1 which is http://127.0.0.1:62786/hi is down, skipping to next server
