@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: server-1-deployment
+  labels:
+    app: server-1
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: server-1
+  template:
+    metadata:
+      labels:
+        app: server-1
+    spec:
+      containers:
+      - name: server-1-ctr
+        image: sayandeeps/server1:latest
+        ports:
+          - containerPort: 8000
+        imagePullPolicy: Always
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 10
+          periodSeconds: 30
