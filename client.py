@@ -8,7 +8,7 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=lo
 
 # Define the servers
 servers = [
-    {"name": "Server 1", "url": "http://127.0.0.1:61512/hi"},
+    {"name": "Server 1", "url": "http://10.1.1.11:30080/hi"},
     {"name": "Server 2", "url": "http://127.0.0.1:61824/hi"}
 ]
 
