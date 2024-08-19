@@ -4,7 +4,6 @@ metadata:
   name: server-1-deployment
   labels:
     app: server-1
-
 spec:
   replicas: 1
   selector:
@@ -15,6 +14,22 @@ spec:
       labels:
         app: server-1
     spec:
+      # Node affinity to avoid nodes with disk pressure
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: node.kubernetes.io/disk-pressure
+                operator: DoesNotExist
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 1
+            preference:
+              matchExpressions:
+              - key: disktype
+                operator: In
+                values:
+                - ssd
       containers:
       - name: server-1-ctr
         image: sayandeeps/server1:latest
@@ -27,3 +42,10 @@ spec:
             port: 8000
           initialDelaySeconds: 10
           periodSeconds: 30
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
