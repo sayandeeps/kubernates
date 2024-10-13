@@ -32,7 +32,7 @@ spec:
                 - ssd
       containers:
       - name: server-1-ctr
-        image: sayandeeps/server1:latest
+        image: localhost:5000/sayandeeps/server1:latest
         ports:
           - containerPort: 8000
         imagePullPolicy: Always
